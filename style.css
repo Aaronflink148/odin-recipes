@@ -1,3 +1,11 @@
+/*  outline: 2px solid red;  --> for red box lining */
+
+* {
+    outline: 2px solid red; 
+    box-sizing: border-box;
+    
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,14 +18,33 @@ body {
     margin-right: auto;
 }
 
-h1, h2 {
+h1 {
     font-size: 32px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+ul {
+    font-weight: bold;
+}
+
+.recipelist {
+    padding: 25px;
+    margin-bottom: 5px;
+}
+
+.titleblock {
+
+}
+
+.description {
     text-align: center;
 }
 
+.ingredients {
+    margin: 10px;
+}
 
-ul {
-    background-color: burlywood;
-    font-weight: bold;
-
+.steps {
+    margin: 10px;
 }
